@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Utama - Sistem Konsultasi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #1c1c1c;
+    }
+    .hero {
+      padding: 100px 0;
+      background: linear-gradient(to right, #0d6efd, #1e1e1e);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .features {
+      background-color: #1e1e1e;
+      padding: 60px 0;
+    }
+    .stat-card {
+      background-color: #2b2b2b;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      color: #fff;
+    }
+    .footer {
+      background-color: #111;
+      color: #aaa;
+      padding: 30px 0;
+    }
+    .btn-primary {
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">SistemKonsultasi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Fitur</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Masuk</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-2" href="register.html">Daftar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-white">
+    <div class="container">
+      <h1>Selamat Datang di Sistem Konsultasi Digital</h1>
+      <p class="lead mt-3">Platform terpercaya untuk konsultasi online dengan dokter profesional.</p>
+      <a href="register.html" class="btn btn-primary btn-lg mt-4">Mulai Sekarang</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="bi bi-shield-check" style="font-size: 2rem;"></i>
+          <h4 class="mt-3">Aman & Terpercaya</h4>
+          <p>Data pasien dan dokter terenkripsi serta dijaga kerahasiaannya.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-people" style="font-size: 2rem;"></i>
+          <h4 class="mt-3">Dokter Berpengalaman</h4>
+          <p>Terhubung dengan dokter profesional dan berlisensi.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-chat-dots" style="font-size: 2rem;"></i>
+          <h4 class="mt-3">Konsultasi Cepat</h4>
+          <p>Konsultasi online tanpa harus datang langsung ke klinik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistik -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="stat-card">
+            <h2>120+</h2>
+            <p>Dokter Aktif</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="stat-card">
+            <h2>1.000+</h2>
+            <p>Pasien Terdaftar</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="stat-card">
+            <h2>2.500+</h2>
+            <p>Konsultasi Selesai</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>© 2025 SistemKonsultasi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
